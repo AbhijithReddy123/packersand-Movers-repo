@@ -1,0 +1,211 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(pm2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.nav1 {
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+    margin-left: 600px;
+    
+}
+.nav1 li {
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.logo {
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 90px;
+        
+}
+
+
+
+.nav1 li a:link,
+.nav1 li a:visited{
+    padding: 10px;
+     color: #fff;
+    text-decoration: none;
+}
+
+.nav1 li a:hover,
+.nav1 li a:active {
+    border-bottom: 2px solid #e67e22;
+     border-top: 2px solid #e67e22
+}
+
+.about-us {
+    color: #fff;
+    font-style: italic;
+    width: 650px;
+    text-align: center;
+    margin-left: 390px;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.btn1:link,
+.btn1:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid red;
+    background-color: red;
+    margin-right: 400px;
+    color: #fff;
+}
+.btn2:link,
+.btn2:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+}
+section {
+    padding:80px 0;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Console", Courier, monospace;
+    
+
+  
+}
+h1:before {
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+    margin-left: 90px;
+ 
+}
+.piano {
+    height: 220px;
+}
+.description {
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.description:after {
+     display: block;
+    height: 2px;
+    background-color: red;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.care{
+    height: 222px
+}
+
+.things3 {
+    background-color: #f4f4f4;
+}
+.minitruck {
+    height: 190px;
+}
+.megatruck {
+    height: 190px;
+}
+
+.features{
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+    border: 1px solid white;
+    background-color: white
+}
+.features li {
+    line-height: 70px;
+    font-size: 25px
+}
+.price{
+    
+    font-size: 50px;
+    color: orange;
+    border: 1px solid #D3D3D3;
+    margin-right: 30px
+}
+.contact-form {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    
+}
+.border {
+    border: 1px solid;
+    width: 600px;
+    border-bottom: 40px solid #888;
+    border-right: 40px solid #888;
+    border-left: 40px solid #888;
+    border-top: 40px solid #888;
+    margin-left: -85px;
+}
+footer {
+
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+   
+    margin-top: 30px;
+}
+
+.footer-nav {
+    list-style: none;
+  
+      color: white;
+}
+.footer-nav li a {
+ float: left;
+    margin-right: 40px;
+    color: #888;
+      text-decoration: none;
+    
+}
